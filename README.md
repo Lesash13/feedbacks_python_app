@@ -51,14 +51,11 @@ Register process:
 ```sh
 git clone https://github.com/Lesash13/infra_sp2.git
 ```
-#### Set .env file. Example:
+#### Set .env file:
 ```
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres 
-POSTGRES_USER=postgres 
-POSTGRES_PASSWORD=postgres
-DB_HOST=db  # db container name
-DB_PORT=5432 
+Take infra/.env.example as initial file.
+Rename ".env.example" to ".env"
+Set necessary values in the file
 ```
 
 ## Usage
@@ -70,8 +67,7 @@ cd infra_sp2/infra
 ```
 
 ```sh
-docker-compose build
-docker-compose up
+docker compose up
 ```
 
 #### Do migrations:
