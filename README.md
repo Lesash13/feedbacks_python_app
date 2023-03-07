@@ -31,7 +31,7 @@ Roles:
 Register process:
 
 * User sends a request with the email parameter to /auth/email/.
-* YaMDB sends an email with a confirmation code (confirmation_code) to the email address.
+* App sends an email with a confirmation code (confirmation_code) to the email address.
 * User sends a request with the parameters email and confirmation_code to /auth/token/, in response to the request, he
   receives a token (JWT token).
 * Optionally, user sends a PATCH request to /users/me/ and fills in the fields in his profile (the description of the
