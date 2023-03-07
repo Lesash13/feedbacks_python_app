@@ -3,7 +3,7 @@
 
 # Python Feedbacks App (Django)
 
-The YaMDb project collects user feedback on works. The works are divided into categories: "Books", "Films", "Music". The
+The Feedbacks project collects user feedback on works. The works are divided into categories: "Books", "Films", "Music". The
 list of categories (Category) can be expanded via Admin interface.
 
 Using SQLite as DB, backend based on View-sets approach.
